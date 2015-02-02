@@ -16,7 +16,7 @@ LIBFILE=libjsoncpp.a
 all:lib
 
 %.o:%.cpp
-	$(CXX) $(CXXFLAGS) $< -c
+	$(CXX) $(CXXFLAGS) $< -o $@ -c
 
 lib:$(LIBFILE)
 
