@@ -1,7 +1,7 @@
 CC=emcc
 CXX=em++
 
-CFLAGS=-g0 -DNDEBUG -Iinclude
+CFLAGS=-O3 -DNDEBUG -Iinclude
 CXXFLAGS=$(CFLAGS)
 
 
